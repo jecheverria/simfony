@@ -1,0 +1,7 @@
+juv_user:
+    resource: "@JUVUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

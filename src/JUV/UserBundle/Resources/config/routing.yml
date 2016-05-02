@@ -1,0 +1,21 @@
+juv_user_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: JUVUserBundle:Default:index }
+    
+juv_user_index:
+    path: /user/index
+    defaults: { _controller: JUVUserBundle:User:index }
+    
+juv_user_add:
+    path: /user/add
+    defaults: { _controller: JUVUserBundle:User:add }    
+    
+juv_user_create:
+    path: /user/create
+    defaults: { _controller: JUVUserBundle:User:create }        
+    methods: POST
+    
+juv_user_view:
+    path: /user/view/{id}
+    defaults: { _controller: JUVUserBundle:User:view }
+    
